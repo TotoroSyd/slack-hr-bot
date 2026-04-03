@@ -1,0 +1,26 @@
+{
+  "name": "slack-hr-bot",
+  "version": "1.0.0",
+  "description": "Slack HR bot powered by Claude + Notion MCP",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test:agent": "node dist/test-agent.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@modelcontextprotocol/sdk": "^1.10.1",
+    "@notionhq/client": "^5.16.0",
+    "@slack/bolt": "^3.22.0",
+    "dotenv": "^16.4.7",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^20.17.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
