@@ -1,4 +1,4 @@
-# Slack HR Bot
+# Slack HR Bot (Notion base)
 
 A Slack bot that answers employee HR policy questions using Claude AI and your company's Notion knowledge base.
 
