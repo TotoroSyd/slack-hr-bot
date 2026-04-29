@@ -78,20 +78,6 @@ npm run build
 # Start
 npm start
 
-## Project structure
-
-```
-src/
-├── index.ts          # Entry point — starts MCP, Slack, and Express
-├── config.ts         # Environment variable validation
-├── ai/
-│   └── agent.ts      # Claude agentic loop with tool use
-├── mcp/
-│   └── notion.ts     # Notion MCP client connection and tool wrapper
-└── slack/
-    ├── app.ts        # Slack Bolt app initialization
-    └── handlers.ts   # Event handlers for @mentions and DMs
-```
 
 ## Stack
 
